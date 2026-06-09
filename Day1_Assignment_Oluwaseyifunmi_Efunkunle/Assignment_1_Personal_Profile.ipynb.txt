@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM7Nhn5+ytPQL03I8QUHCF7",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/EwaoluwA-bit/Pinky-webtomi/blob/main/Assignment_1_Personal_Profile.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = \"Oluwaseyifunmi Efunkunle\"\n",
+        "age = 26\n",
+        "state_of_residence = \"Lagos\"\n",
+        "favourite_ai_tool = \"Gemini\"\n",
+        "\n",
+        "\n",
+        "print(\"My Personal Profile\")\n",
+        "print(\"Name:\", name)\n",
+        "print(\"Age:\", age)\n",
+        "print(\"State:\", state_of_residence)\n",
+        "print(\"Favourite_AI_Tool:\", favourite_ai_tool)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YM5HT7DNHXi6",
+        "outputId": "58f74d4d-9ab0-4a27-ffc2-1f1debae2826"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My Personal Profile\n",
+            "Name: Oluwaseyifunmi Efunkunle\n",
+            "Age: 26\n",
+            "State: Lagos\n",
+            "Favourite_AI_Tool: Gemini\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
