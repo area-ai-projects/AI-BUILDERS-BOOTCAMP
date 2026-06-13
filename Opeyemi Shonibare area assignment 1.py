@@ -1,0 +1,13 @@
+# Personal Profile
+
+name = "Opeyemi Shonibare"
+age = 27
+state_of_residence = "Lagos"
+favorite_ai_tool = "ChatGPT"
+
+print("Personal Profile")
+print("----------------")
+print("Name:", name)
+print("Age:", age)
+print("State of Residence:", state_of_residence)
+print("Favorite AI Tool:", favorite_ai_tool)
