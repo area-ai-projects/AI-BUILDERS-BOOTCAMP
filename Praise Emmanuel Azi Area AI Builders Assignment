@@ -1,0 +1,130 @@
+# AREA AI BUILDERS BOOTCAMP 
+# ASSIGNMENT WORKBOOK
+
+# ASSIGNMENT 1 : PERSONAL PROFILE
+# Personal Profile Variables
+name = "Praise Emmanuel Azi"
+age = 21
+state_of_residence = "Plateau"
+favorite_ai_tool = "Claude"
+
+# Print in a readable format
+print("=== Personal Profile ===")
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"State of Residence: {state_of_residence}")
+print(f"Favorite AI Tool: {favorite_ai_tool}")
+
+
+=== Personal Profile ===
+Name: Windpraise
+Age: 25
+State of Residence: Lagos
+Favorite AI Tool: Claude
+
+
+#ASSIGNMENT 2: DATA TYPES PRACTICE 
+# Data Types Practice
+
+# String
+name = "Praise Emmanuel Azi"
+
+# Integer
+age = 21
+
+# Float
+height = 1.75
+
+# Boolean
+likes_music = True
+
+# List (5 AI tools)
+ai_tools = ["Claude", "ChatGPT", "Gemini", "Copilot", "Grok"]
+
+# Tuple
+coordinates = (9.1667, 9.7500)  # Plateau state Nigeria 
+
+# Dictionary
+profile = {
+    "name": "Praise Emmanuel Azi",
+    "role": "Trumpet Artist",
+    "state": "Plateau"
+}
+
+# Print values and their types
+print("=== Values ===")
+print("String:", name)
+print("Integer:", age)
+print("Float:", height)
+print("Boolean:", likes_music)
+print("List:", ai_tools)
+print("Tuple:", coordinates)
+print("Dictionary:", profile)
+
+print("\n=== Types ===")
+print("Type of name:", type(name))
+print("Type of age:", type(age))
+print("Type of height:", type(height))
+print("Type of likes_music:", type(likes_music))
+print("Type of ai_tools:", type(ai_tools))
+print("Type of coordinates:", type(coordinates))
+print("Type of profile:", type(profile))
+
+
+=== Values ===
+String: Windpraise
+Integer: 25
+Float: 1.75
+Boolean: True
+List: ['Claude', 'ChatGPT', 'Gemini', 'Copilot', 'Perplexity']
+Tuple: (6.5244, 3.3792)
+Dictionary: {'name': 'Windpraise', 'role': 'Trumpet Artist', 'state': 'Lagos'}
+
+=== Types ===
+Type of name: <class 'str'>
+Type of age: <class 'int'>
+Type of height: <class 'float'>
+Type of likes_music: <class 'bool'>
+Type of ai_tools: <class 'list'>
+Type of coordinates: <class 'tuple'>
+Type of profile: <class 'dict'>
+
+
+
+# ASSIGNMENT 3: STRING OPERATIONS 
+# String Operations
+
+# Given string (with extra spaces to demonstrate strip)
+text = "   Windpraise loves playing the trumpet   "
+
+# Uppercase
+uppercase_text = text.upper()
+
+# Lowercase
+lowercase_text = text.lower()
+
+# Strip (remove leading/trailing whitespace)
+stripped_text = text.strip()
+
+# Slicing (get a portion of the string)
+# After stripping, let's slice out "Windpraise"
+sliced_text = stripped_text[0:10]
+
+# Concatenation (joining strings together)
+concatenated_text = stripped_text + " and enjoys music production."
+
+# Print results
+print("Original:", repr(text))
+print("Uppercase:", uppercase_text)
+print("Lowercase:", lowercase_text)
+print("Stripped:", stripped_text)
+print("Sliced (first 10 chars):", sliced_text)
+print("Concatenated:", concatenated_text)
+
+
+Original: '   Praise Emmanuel Azi loves playing the trumpet   '
+Uppercase:    PRAISE EMMANUEL AZI LOVES PLAYING THE TRUMPET   
+Lowercase:    praise emmanuel azi loves playing the trumpet   
+Stripped: Windpraise loves playing the trumpet
+Sliced (first 10 chars): Windpraise
+Concatenated: Windpraise loves playing the trumpet and enjoys music production.
